@@ -1,4 +1,4 @@
-const exec = require('child_process');
+const { exec } = require('child_process');
 
 exec('pkill -f \'gear |gear$\' -9', (err, stdout, stderr) => {
   if (err) {

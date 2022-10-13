@@ -11,4 +11,4 @@ exec('pkill -f \'gear |gear$\' -9', (err, stdout, stderr) => {
     console.log(`JS_TEST: ❌ Test failed (${exitCode})`);
   }
   process.exit(exitCode);
-}
+});

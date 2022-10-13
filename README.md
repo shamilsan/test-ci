@@ -1,2 +1,3 @@
-# test-win
-Test Windows CI
+# test-ci
+
+Test Windows and Linux CI.
